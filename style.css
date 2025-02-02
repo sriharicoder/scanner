@@ -1,0 +1,209 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #87cefa;
+    padding: 20px;
+    margin: 0;
+}
+
+/* Header Container */
+.header-container {
+    background-color: #e6e6fa;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* About Us Container */
+.about-container {
+    background: mediumspringgreen;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    max-width: 1000px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+	margin-right: 650px;
+	font-size:20px;
+}
+
+/* Main Container */
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin-left: 20px;
+	margin-bottom: 10px;
+	margin-right: 800px;
+	
+}
+
+/* Headings */
+h1, h2, h3 {
+    color: #333;
+}
+
+/* About Us Section */
+.about-us p {
+    font-size: 16px;
+    color: #555;
+}
+
+/* Add this to your existing CSS */
+.about-us {
+    transition: transform 0.1s ease-out;
+}
+
+
+
+/* Get Started Section */
+.get-started {
+    margin-top: 30px;
+}
+
+.get-started p {
+    font-size: 18px;
+    color: #555;
+}
+
+.get-started:hover{
+	transform: translateY(-5px); 
+}
+
+.get-started-btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    display: inline-block;
+}
+
+.get-started-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Scan Box Styling */
+.scan-box {
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.about-container:hover {
+    transform: translateY(-5px); /* Lift the box slightly on hover */
+}
+
+.scan-box a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.scan-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.scan-header i {
+    font-size: 30px;
+    color: white;
+}
+
+/* Hover effect */
+.scan-box:hover {
+    transform: translateY(-5px); /* Lift the box slightly on hover */
+}
+
+
+h3 {
+    color: white;
+}
+
+/* Individual Scan Box Colors */
+.url-box {
+    background-color: #007bff;
+}
+
+.email-box {
+    background-color: #28a745;
+}
+
+.ip-box {
+    background-color: #dc3545;
+}
+
+/* Input Fields */
+input {
+    padding: 10px;
+    margin: 10px;
+    width: 80%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Buttons */
+button {
+    padding: 10px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 85%;
+    margin-top: 5px;
+}
+
+/* Unique button colors */
+.url-btn {
+    background: #007bff;
+}
+.url-btn:hover {
+    background: #0056b3;
+}
+
+.email-btn {
+    background: #28a745;
+}
+.email-btn:hover {
+    background: #1e7e34;
+}
+
+.ip-btn {
+    background: #dc3545;
+}
+.ip-btn:hover {
+    background: #a71d2a;
+}
+
+/* Loading Spinner */
+.loader {
+    display: none;
+    margin: 10px auto;
+    border: 5px solid #f3f3f3;
+    border-top: 5px solid #3498db;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Result Display */
+.result {
+    margin-top: 10px;
+    font-weight: bold;
+}
