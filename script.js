@@ -56,7 +56,7 @@ async function checkEmail() {
     resultDiv.innerHTML = "";
 
     try {
-        let apiKey = "YOUR_LEAKCHECKAPI_KEY";  // Replace with your API key
+        let apiKey = "6fb4f9f895e18a2d7780740779b831d8a47cf381";  // Replace with your API key
         let response = await fetch(`https://leakcheck.io/api?key=${apiKey}&check=${email}&type=email`, {
             method: "GET",
             headers: {
@@ -99,7 +99,7 @@ async function checkIP() {
         let response = await fetch(apiUrl, {
             method: "GET",
             headers: {
-                "Key": "6d383b203ea4721b099a03b042512b79eadfb4bc2827413900c2e04fce84e2979d0ae99bf416fee5", // Your actual API key here
+                "Key": "37d36592de20048696fa458d7b25d3bc91809e8f53bc4a28129e3b24c2fb1770c0640390a64ef37a", // Your actual API key here
                 "Accept": "application/json"
             }
         });
